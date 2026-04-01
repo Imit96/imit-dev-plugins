@@ -12,6 +12,9 @@ A cross-platform AI agent plugin that interviews you about your project, then ge
 
 ## Installation
 
+> [!IMPORTANT]
+> **Where to run commands:** Commands starting with `/` (like `/plugin`) must be typed directly into your **Agent's CLI Chat interface**, not your computer's terminal (zsh/bash).
+
 ### Installation (Marketplace Method)
 
 To install this plugin from the custom marketplace, first register this repository as a source in your agent CLI:
@@ -273,8 +276,9 @@ Skills update automatically when you update the plugin:
 
 ```
 project-scaffold-plugin/
-├── marketplace.json                  # Marketplace catalog
-├── plugin.json                       # Plugin manifest
+├── .claude-plugin/
+│   ├── marketplace.json                  # Marketplace catalog
+│   └── plugin.json                       # Plugin manifest
 ├── .codex/
 │   └── INSTALL.md                        # Codex install instructions
 ├── .opencode/
