@@ -12,15 +12,9 @@ A cross-platform AI agent plugin that interviews you about your project, then ge
 
 ## Installation
 
-### Claude Code (via Official Marketplace)
+### Installation (Marketplace Method)
 
-```
-/plugin install project-scaffold@claude-plugins-official
-```
-
-### Claude Code (via Plugin Marketplace)
-
-In Claude Code, register the marketplace first:
+To install this plugin from the custom marketplace, first register this repository as a source in your agent CLI:
 
 ```
 /plugin marketplace add Imit96/project-scaffold-plugin
@@ -279,9 +273,8 @@ Skills update automatically when you update the plugin:
 
 ```
 project-scaffold-plugin/
-├── .claude-plugin/
-│   ├── marketplace.json                  # Marketplace catalog
-│   └── plugin.json                       # Plugin manifest
+├── marketplace.json                  # Marketplace catalog
+├── plugin.json                       # Plugin manifest
 ├── .codex/
 │   └── INSTALL.md                        # Codex install instructions
 ├── .opencode/
