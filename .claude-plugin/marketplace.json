@@ -1,6 +1,6 @@
 {
-  "name": "project-scaffold-marketplace",
-  "description": "Plugin marketplace for the Project Scaffold skill — generates all AI-agent config files for full-stack projects",
+  "name": "imit-dev-plugins",
+  "description": "Imit's AI agent plugins hub — high-performance developer tools",
   "owner": {
     "name": "Imit",
     "email": ""
@@ -10,7 +10,7 @@
       "name": "project-scaffold",
       "description": "Generate all AI-agent config files for any full-stack project. 9-phase system: interviews first, then creates CLAUDE.md, rules, agents, skills, commands, progress tracking, best practices coaching, and completion awareness.",
       "version": "1.0.0",
-      "source": "./",
+      "source": "./plugins/project-scaffold",
       "author": {
         "name": "Imit"
       }

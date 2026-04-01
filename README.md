@@ -1,4 +1,4 @@
-# 🏗️ Project Scaffold
+# 🏗️ Imit Dev Plugins Hub
 
 **Generate all AI-agent config files for any full-stack project — in one go.**
 
@@ -15,18 +15,16 @@ A cross-platform AI agent plugin that interviews you about your project, then ge
 > [!IMPORTANT]
 > **Where to run commands:** Commands starting with `/` (like `/plugin`) must be typed directly into your **Agent's CLI Chat interface**, not your computer's terminal (zsh/bash).
 
-### Installation (Marketplace Method)
-
-To install this plugin from the custom marketplace, first register this repository as a source in your agent CLI:
+To install from the **Imit Dev Plugins** hub, first register it as a source in your agent CLI:
 
 ```
 /plugin marketplace add Imit96/project-scaffold-plugin
 ```
 
-Then install the plugin from this marketplace:
+Then install the desired plugin from this marketplace (e.g., Project Scaffold):
 
 ```
-/plugin install project-scaffold@project-scaffold-marketplace
+/plugin install project-scaffold@imit-dev-plugins
 ```
 
 To update:
@@ -275,36 +273,25 @@ Skills update automatically when you update the plugin:
 ## Plugin Structure
 
 ```
-project-scaffold-plugin/
+imit-dev-plugins/
 ├── .claude-plugin/
-│   ├── marketplace.json                  # Marketplace catalog
-│   └── plugin.json                       # Plugin manifest
-├── .codex/
-│   └── INSTALL.md                        # Codex install instructions
-├── .opencode/
-│   └── INSTALL.md                        # OpenCode install instructions
-├── skills/
-│   └── project-scaffold/
-│       ├── SKILL.md                      # Main skill (9 phases)
-│       ├── references/
-│       │   ├── claude-md-template.md     # CLAUDE.md template
-│       │   ├── rules-templates.md        # .claude/rules/ templates
-│       │   ├── agent-templates.md        # .claude/agents/ templates
-│       │   ├── skills-templates.md       # .claude/skills/ templates
-│       │   ├── commands-templates.md     # .claude/commands/ templates
-│       │   ├── docs-agent-templates.md   # docs/agent/ templates
-│       │   ├── bake-in-blocks.md         # Exact blocks to embed in files
-│       │   ├── progress-template.md      # Progress tracker + 6 milestone patterns
-│       │   └── best-practices-catalog.md # 20+ trigger-based suggestions
-│       └── agents/
-│           ├── interviewer.md            # Discovery phase sub-agent
-│           ├── doc-updater.md            # Auto doc update sub-agent
-│           └── health-monitor.md         # Project health sub-agent
-├── AGENTS.md                             # Cross-platform discovery file
-├── CHANGELOG.md
-├── LICENSE
+│   └── marketplace.json                  # Central hub catalog
+├── plugins/
+│   └── project-scaffold/                 # First plugin
+│       ├── .claude-plugin/
+│       │   └── plugin.json               # Plugin-specific manifest
+│       ├── .codex/                       # Codex instructions
+│       ├── .opencode/                    # OpenCode instructions
+│       ├── skills/
+│       │   └── project-scaffold/         # Main skill
+│       │       ├── SKILL.md
+│       │       ├── agents/
+│       │       └── references/
+│       ├── AGENTS.md                     # Cross-platform discovery
+│       ├── CHANGELOG.md
+│       └── LICENSE
 ├── .gitignore
-└── README.md
+└── README.md                             # Hub index & instructions
 ```
 
 ---
