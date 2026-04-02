@@ -15,7 +15,7 @@ A collection of cross-platform AI agent plugins designed to streamline developme
 | Plugin | Description | Documentation |
 |--------|-------------|---------------|
 | `project-scaffold` | **Full-Stack Project Initialization.** Interviews you about your project, then generates a complete set of `CLAUDE.md`, rules, agents, skills, and progress tracking. | [README](plugins/project-scaffold/README.md) |
-| `trade-launch-intelligence` | **Global Trade Advisory.** Professional business launch advisory for traders and exporters. Produces market research, financial projections, and compliance guides. | [README](plugins/trade-launch-intelligence/README.md) |
+| `trade-launch-intelligence` | **Professional Multi-Agent Team.** Professional business launch advisory (Analyst, Finance, Compliance, Strategy) for traders and exporters. | [README](plugins/trade-launch-intelligence/README.md) |
 
 ---
 

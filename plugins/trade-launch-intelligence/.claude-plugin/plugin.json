@@ -9,5 +9,27 @@
   "license": "MIT",
   "skills": [
     "./skills/trade-launch-intelligence"
+  ],
+  "agents": [
+    {
+      "name": "market-analyst",
+      "description": "Expert in product discovery, global trends, and sourcing. Handles research for new trade items.",
+      "path": "./agents/market-analyst"
+    },
+    {
+      "name": "finance-advisor",
+      "description": "Expert in financial modeling, ROI calculation, and trade funding options.",
+      "path": "./agents/finance-advisor"
+    },
+    {
+      "name": "compliance-expert",
+      "description": "Expert in customs, permits, regulatory requirements, and legal trade contracts.",
+      "path": "./agents/compliance-expert"
+    },
+    {
+      "name": "business-strategist",
+      "description": "Lead orchestrator and strategist. Synthesizes data into pitch packs and executive briefs.",
+      "path": "./agents/business-strategist"
+    }
   ]
 }

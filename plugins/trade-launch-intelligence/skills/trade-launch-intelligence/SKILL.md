@@ -14,6 +14,21 @@ description: >
   business is struggling, pitch to investors, start a trading business, or any trade/export task.
 ---
 
+## MULTI-AGENT COORDINATION PROTOCOL
+*This skill is designed for a specialist team. Follow these coordination rules:*
+
+1. **The Shared Intelligence Ledger**: All agents must use `.trade_intel_audit.md` as the "Single Source of Truth."
+   - **READ FIRST**: Before starting any phase, read the current ledger.
+   - **WRITE LAST**: After finishing a phase, append your structured findings to the ledger.
+2. **Specialist Roles**:
+   - `market-analyst`: Phase 0A, 1, 2, 3, 5
+   - `finance-advisor`: Phase 7, 9
+   - `compliance-expert`: Phase 6, 8
+   - `business-strategist`: Phase 4, 10, 11, 12
+3. **Delegation**: On platforms supporting sub-agents (like Claude Code), use the `[DELEGATE: agent-name]` marker. On single-agent platforms, adopt the persona described in the agent's `CLAUDE.md`.
+
+---
+
 # Trade Launch Intelligence Skill — Global Edition
 
 ## Overview
@@ -93,6 +108,7 @@ START
 ---
 
 ## PHASE 0A — PRODUCT DISCOVERY ENGINE
+**[ACT: market-analyst]**
 
 **Trigger this phase ONLY when the user has no specific product in mind.**
 
@@ -160,6 +176,7 @@ Once a product is confirmed → proceed to **PHASE 0B**.
 ---
 
 ## PHASE 0B — CONTEXT INTAKE
+**[ACT: business-strategist]**
 
 *Run this even if the user already had a product. Gather all context needed before research begins.*
 
@@ -219,6 +236,7 @@ Colour Theme Name:    [e.g. "Default Navy/Gold" / "Forest Green" / "Custom #2E40
 ---
 
 ## PHASE 1 — Product Intelligence Report
+**[ACT: market-analyst]**
 
 ### 1.1 Product Overview
 - Full description, variants, and industrial classifications
@@ -453,6 +471,7 @@ For each top target market:
 ---
 
 ## PHASE 7 — Financial Model
+**[ACT: finance-advisor]**
 
 Read `references/financial-model.md` for calculation formulas and frameworks.
 Read `references/funding-directory.md` Sections 7 & 8 for funding type matching and application tips.
@@ -583,6 +602,7 @@ Read `references/negotiation-playbook.md` Section 9 (preparation checklist) — 
 ---
 
 ## PHASE 10 — Role-Based Document Generation
+**[ACT: business-strategist] (Lead Orchestrator)**
 
 Read `references/document-templates.md` before generating any document.
 Read `references/document-styling.md` for visual styling — EVERY document

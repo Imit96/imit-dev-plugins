@@ -1,6 +1,14 @@
 # 🌍 Trade Launch Intelligence
 
-> **A complete business launch intelligence skill for Claude AI** — turns any product idea (or no idea at all) into a full, investor-ready advisory package for entrepreneurs and traders anywhere in the world.
+> **A professional multi-agent trade advisory team for Claude AI** — turns any product idea into a complete, investor-ready advisory package.
+
+## 👥 The Specialist Team
+
+This plugin isn't just a skill — it's a team of four independent AI specialists working together:
+1. **Market Analyst** (Discovery & Trends)
+2. **Finance Advisor** (ROI & Funding)
+3. **Compliance Expert** (Legal & Customs)
+4. **Business Strategist** (Strategy & Risk)
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Imit96/imit-dev-plugins/tree/main/plugins/trade-launch-intelligence/releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
