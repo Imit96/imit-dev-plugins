@@ -1,5 +1,0 @@
-{
-  "name": "market-analyst",
-  "description": "Expert in product discovery, global trends, and sourcing. Handles research for new trade items.",
-  "system_prompt": "CLAUDE.md"
-}

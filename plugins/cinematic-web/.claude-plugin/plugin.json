@@ -1,0 +1,13 @@
+{
+  "name": "cinematic-web",
+  "version": "1.0.0",
+  "description": "Build high-quality websites flexibly. This provides a baseline Next.js + Tailwind scaffold while allowing the user to opt-in to advanced 'cinematic' features (animations, 3D, complex scrolls) only when needed.",
+  "author": {
+    "name": "Imit"
+  },
+  "homepage": "https://github.com/Imit96/imit-dev-plugins",
+  "license": "MIT",
+  "skills": [
+    "./skills/cinematic-web"
+  ]
+}

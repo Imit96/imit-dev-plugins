@@ -16,6 +16,7 @@ A collection of cross-platform AI agent plugins designed to streamline developme
 |--------|-------------|---------------|
 | `project-scaffold` | **Full-Stack Project Initialization.** Interviews you about your project, then generates a complete set of `CLAUDE.md`, rules, agents, skills, and progress tracking. | [README](plugins/project-scaffold/README.md) |
 | `trade-launch-intelligence` | **Professional Multi-Agent Team.** Professional business launch advisory (Analyst, Finance, Compliance, Strategy) for traders and exporters. | [README](plugins/trade-launch-intelligence/README.md) |
+| `cinematic-web` | **Agile Full-Stack Web Development.** Fast-paced, MVP-first development of web experiences with opt-in support for advanced 'cinematic' features (3D, GSAP, complex scrolls). | [README](plugins/cinematic-web/README.md) |
 
 ---
 

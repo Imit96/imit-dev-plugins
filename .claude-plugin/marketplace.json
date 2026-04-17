@@ -23,6 +23,15 @@
       "author": {
         "name": "Imit"
       }
+    },
+    {
+      "name": "cinematic-web",
+      "description": "Agile full-stack web development skill for building high-quality websites flexibly, with opt-in support for cinematic features (3D, GSAP, Lenis).",
+      "version": "1.0.0",
+      "source": "./plugins/cinematic-web",
+      "author": {
+        "name": "Imit"
+      }
     }
   ]
 }
