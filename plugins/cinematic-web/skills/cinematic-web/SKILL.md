@@ -42,6 +42,7 @@ Use this list simply to know what exists. Load them individually with your file-
 - `caching-strategy.md`, `cms-schemas.md`, `content-strategy.md`, `cookie-consent.md`, `dark-mode-layer.md`
 - `deployment-layer.md`, `design-paradigms.md`, `error-handling-layer.md`, `forms-layer.md`
 - `fullstack-scaffold.md`, `industry-presets.md`, `mobile-layer.md`, `motion-code-library.md`
+- `official-gsap-core.md`, `official-gsap-performance.md`, `official-gsap-react.md`, `official-gsap-scrolltrigger.md`
 - `phases.md` (DEPRECATED - ignore), `postlaunch-layer.md`, `quality-gates.md`, `remotion-layer.md`
 - `scene-prompts.md`, `scrollytelling.md`, `security-layer.md`, `seo-layer.md`, `stack-configs.md`
 - `storylines.md`, `testing-layer.md`
